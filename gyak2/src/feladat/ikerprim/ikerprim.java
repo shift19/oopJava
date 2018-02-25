@@ -1,6 +1,6 @@
-package feladat.harmadik;
+package feladat.ikerprim;
 
-public class harmadikfeladat {
+public class ikerprim {
 
 	public static void main(String[] args) {
 		int darab = 0;
@@ -22,7 +22,7 @@ public class harmadikfeladat {
 			return false;
 		}
 		int db = 2; // 1 és önmaga
-		for (int i = 2; i < Math.sqrt(szam); i++) {
+		for (int i = 2; i <= Math.sqrt(szam); i++) {
 			if (szam % i == 0) {
 				db++;
 			}
@@ -30,6 +30,6 @@ public class harmadikfeladat {
 		if (db == 2) {
 			return true;
 		}
-		return true;
+		return false;
 	}
 }

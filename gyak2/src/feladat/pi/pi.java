@@ -1,6 +1,6 @@
-package feladat.elso;
+package feladat.pi;
 
-public class elsofeladat {
+public class pi {
 
 	public static void main(String[] args) {
 		double wallis = 1;
@@ -21,17 +21,17 @@ public class elsofeladat {
 		}
 		System.out.println("PI értéke: (Wallis) " + (wallis * 2));
 
-		double liebnitz = 0;
+		double leibniz = 0;
 		nevezo = 1;
 		szamlalo = 1;
 		for (int i = 0; i < 1000; i++) {
 			if (i % 2 == 0) {
-				liebnitz = liebnitz + (szamlalo * 1.0 / nevezo);
+				leibniz += (szamlalo * 1.0 / nevezo);
 			} else {
-				liebnitz = liebnitz - (szamlalo * 1.0 / nevezo);
+				leibniz -= (szamlalo * 1.0 / nevezo);
 			}
 			nevezo = nevezo + 2;
 		}
-		System.out.println("PI értéke: (Liebnitz) " + (liebnitz * 4));
+		System.out.println("PI értéke: (Leibniz) " + (leibniz * 4));
 	}
 }

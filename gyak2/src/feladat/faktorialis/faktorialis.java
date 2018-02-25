@@ -1,6 +1,6 @@
-package feladat.masodik;
+package feladat.faktorialis;
 
-public class masodikfeladat {
+public class faktorialis {
 
 	public static void main(String[] args) {
 		for (int i = 1; i <= 10; i++) {
