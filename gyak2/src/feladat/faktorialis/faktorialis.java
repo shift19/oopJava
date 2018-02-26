@@ -1,3 +1,8 @@
+/*
+ * Számítsa ki 1-tõl 10-ig a számok faktoriálisát. 
+ * A faktoriális számítást külön függvényben valósítsa meg.
+ */
+
 package feladat.faktorialis;
 
 public class faktorialis {

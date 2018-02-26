@@ -1,3 +1,12 @@
+/* 
+ * Deklaráljon és inicializáljon egy 10 elemû int tömböt és valósítsa meg az 
+ * alábbi algoritmusokat külön függvényként:
+ * lineáris keresés
+ * közvetlen kiválasztásos rendezés (növekvõ rendezettség minimum kiválasztással)
+ * bináris keresés
+ * Gyakorolja a foreach ciklus használatát!
+ */
+
 package feladat.algoritmusok;
 
 public class algoritmusok {

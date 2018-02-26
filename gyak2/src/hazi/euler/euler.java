@@ -1,3 +1,8 @@
+/*
+ * Adjon közelítést az Euler-féle e számra (e = 2,718 281 828) az alábbi sorozat 
+ * elsõ 100 / 1000tagjának kiszámításával.
+ */
+
 package hazi.euler;
 
 public class euler {

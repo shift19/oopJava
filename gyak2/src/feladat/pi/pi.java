@@ -1,3 +1,10 @@
+/*
+ * Adjon közelítést Pi értékére (3,141 592 653) az alábbi sorozatok 
+ * elsõ 1000 / 10000 tagjának kiszámításával.
+ * Wallis
+ * Leibniz
+ */
+
 package feladat.pi;
 
 public class pi {

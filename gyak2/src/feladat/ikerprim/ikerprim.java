@@ -1,3 +1,11 @@
+/*
+ * Állítsa elõ az 1 és 100 közé esõ számokból készíthetõ összes számpárt 
+ * (a számpárok különbözõ számokból állnak). Számolja meg, hogy ezek közül 
+ * hány számpárra igaz, hogy ikerprímek és írja ki ezeket a számpárokat a konzolra. 
+ * Megoldás: 8 ilyen számpár van. 
+ * Az ikerprímek olyan prímszámok, melyek különbsége 2 (pl. 5 és 7 ikerprímek).
+ */
+
 package feladat.ikerprim;
 
 public class ikerprim {
