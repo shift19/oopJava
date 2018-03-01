@@ -1,2 +1,1 @@
-# oopJava
-JAVA 2018.
+# Objektum Orientált Programozás 2018.
