@@ -8,7 +8,7 @@
 
 package feladat.ikerprim;
 
-public class ikerprim {
+public class Ikerprim {
 
 	public static void main(String[] args) {
 		int darab = 0;

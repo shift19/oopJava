@@ -7,7 +7,7 @@
 
 package hazi.pitagorasz;
 
-public class pitagorasz {
+public class Pitagorasz {
 
 	public static int MAX = 50;
 	

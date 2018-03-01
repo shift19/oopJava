@@ -7,7 +7,7 @@
 
 package feladat.pi;
 
-public class pi {
+public class Pi {
 
 	public static void main(String[] args) {
 		double wallis = 1;

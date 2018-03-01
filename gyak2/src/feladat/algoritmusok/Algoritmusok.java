@@ -9,7 +9,7 @@
 
 package feladat.algoritmusok;
 
-public class algoritmusok {
+public class Algoritmusok {
 
 	public static int keresett = 45;
 

@@ -10,7 +10,7 @@
 
 package feladat.ciklus;
 
-public class ciklus {
+public class Ciklus {
 
 	public static void main(String[] args) {
 		int szam = 5;

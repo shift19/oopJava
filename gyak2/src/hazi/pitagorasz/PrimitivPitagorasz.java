@@ -1,6 +1,6 @@
 package hazi.pitagorasz;
 
-public class primitiv {
+public class PrimitivPitagorasz {
 
 	public static int MAX = 50;
 

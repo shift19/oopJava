@@ -5,7 +5,7 @@
 
 package feladat.faktorialis;
 
-public class faktorialis {
+public class Faktorialis {
 
 	public static void main(String[] args) {
 		for (int i = 1; i <= 10; i++) {

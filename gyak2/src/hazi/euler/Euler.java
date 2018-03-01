@@ -5,7 +5,7 @@
 
 package hazi.euler;
 
-public class euler {
+public class Euler {
 
 	public static void main(String[] args) {
 		double euler = 1;
