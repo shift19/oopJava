@@ -22,6 +22,7 @@ public class Main {
 		emp[3].setSalary(105000);
 		emp[4].setSalary(165000);
 
+		/* Calc max salary */
 		int maxSalaryIndex = 0;
 		for (int i = 0; i < emp.length; i++) {
 			if (emp[i].compareSalary(emp[maxSalaryIndex])) {
@@ -30,6 +31,7 @@ public class Main {
 		}
 		System.out.println("Max salary: " + emp[maxSalaryIndex].getNameSalary());
 
+		/* Calc salary in rage of min, max */
 		int min = 100000;
 		int max = 1500000;
 		int countInRange = 0;
@@ -39,6 +41,20 @@ public class Main {
 			}
 		}
 		System.out.println("Salary in range: " + countInRange);
-		
+
+		/* Calc average salary */
+		int averageSalary = 0;
+		for (int i = 0; i < emp.length; i++) {
+			averageSalary += emp[i].getSalary();
+		}
+		averageSalary /= emp.length;
+		System.out.println("Average salary: " + averageSalary);
+
+		/* Calc sum of taxes */
+		int sumTax = 0;
+		for (int i = 0; i < emp.length; i++) {
+			sumTax += emp[i].getTax();
+		}
+		System.out.println("Sum of taxes: " + sumTax);
 	}
 }
