@@ -9,12 +9,12 @@ public class Employee {
 		this.name = name;
 	}
 
-	public void setSalary(int salary) {
-		this.salary = salary;
-	}
-
 	public String getName() {
 		return name;
+	}
+
+	public void setSalary(int salary) {
+		this.salary = salary;
 	}
 
 	public int getSalary() {
