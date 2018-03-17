@@ -20,7 +20,7 @@ public class Main {
 		System.out.println();
 
 		a.setRectangle(6);
-		
+
 		if (a == b) {
 			System.out.println("a and b is equal.");
 		} else {
@@ -32,7 +32,7 @@ public class Main {
 		} else {
 			System.out.println("a and c is not equal.");
 		}
-		
+
 		System.out.println("a and b is equal? " + a.isEqual(b));
 
 	}

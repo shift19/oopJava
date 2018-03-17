@@ -26,7 +26,7 @@ public class Main {
 	private static int readInt(Scanner sc) {
 		return Integer.parseInt(sc.nextLine());
 	}
-	
+
 	private static void addBook(Scanner sc, Book[] books, int i) {
 		System.out.print("Custom price and year? [1/0] ");
 		int custom = readInt(sc);

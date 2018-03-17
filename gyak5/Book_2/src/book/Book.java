@@ -7,14 +7,14 @@ public class Book {
 	private String title;
 	private int year;
 	private int price;
-	
+
 	public Book(String author, String title, int price, int year) {
 		this.author = author;
 		this.title = title;
 		this.price = price;
 		this.year = year;
 	}
-	
+
 	public Book(String author, String title) {
 		this(author, title, 2500, LocalDate.now().getYear());
 	}
@@ -58,12 +58,8 @@ public class Book {
 	public String getDetails() {
 		return author + " " + title + " " + year + " " + price;
 	}
-	
+
 	public boolean sameTitle(Book b) {
-		if (title.equalsIgnoreCase(b.getTitle())) {
-			return true;
-		} else {
-			return false;
-		}
+		return title.equalsIgnoreCase(b.getTitle());
 	}
 }

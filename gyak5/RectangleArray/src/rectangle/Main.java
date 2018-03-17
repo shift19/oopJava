@@ -44,7 +44,7 @@ public class Main {
 		} else {
 			System.out.println("none");
 		}
-		
+
 		sc.close();
 	}
 

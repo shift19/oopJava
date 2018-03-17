@@ -41,7 +41,7 @@ public class Book {
 	public void increasePrice(int amount) {
 		this.price += (int) (price * (amount / 100.0));
 	}
-	
+
 	public String getDetails() {
 		return author + " " + title + " " + year + " " + price;
 	}

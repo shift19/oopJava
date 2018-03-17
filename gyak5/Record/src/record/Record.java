@@ -50,11 +50,7 @@ public class Record {
 	}
 
 	public boolean sameAuthor(String s) {
-		if (author.equalsIgnoreCase(s)) {
-			return true;
-		} else {
-			return false;
-		}
+		return author.equalsIgnoreCase(s);
 	}
 
 }

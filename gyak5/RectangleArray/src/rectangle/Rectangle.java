@@ -5,8 +5,8 @@ public class Rectangle {
 	private int b;
 
 	public Rectangle(int a, int b) {
-		this.setA(a);
-		this.setB(b);
+		this.a = a;
+		this.b = b;
 	}
 
 	public Rectangle(int a) {
@@ -48,19 +48,11 @@ public class Rectangle {
 	}
 
 	public boolean isBigger(Rectangle r) {
-		if (getArea() > r.getArea()) {
-			return true;
-		} else {
-			return false;
-		}
+		return getArea() > r.getArea();
 	}
 
 	public boolean isEqual(Rectangle r) {
-		if (a == r.getA() && b == r.getB()) {
-			return true;
-		} else {
-			return false;
-		}
+		return a == r.getA() && b == r.getB();
 	}
 
 }

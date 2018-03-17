@@ -8,7 +8,7 @@ public class Main {
 		p.name = "Name";
 		p.height = 1.8;
 		p.weight = 75;
-		
+
 		System.out.println(p.getDetails());
 	}
 

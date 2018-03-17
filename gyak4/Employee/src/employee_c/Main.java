@@ -31,7 +31,9 @@ public class Main {
 		System.out.println("Tax of Emp1: " + emp1.getTax());
 		System.out.println("Tax of Emp2: " + emp2.getTax());
 
-		System.out.println(emp1.getName() + "'s salary gt " + emp2.getName() + "? " + emp1.compareSalary(emp2));
-		System.out.println(emp2.getName() + "'s salary gt " + emp2.getName() + "? " + emp2.compareSalary(emp1));
+		System.out
+				.println(emp1.getName() + "'s salary greater than " + emp2.getName() + "? " + emp1.compareSalary(emp2));
+		System.out
+				.println(emp2.getName() + "'s salary greater than " + emp2.getName() + "? " + emp2.compareSalary(emp1));
 	}
 }

@@ -9,7 +9,7 @@ public class Employee {
 		this.name = name;
 		this.salary = salary;
 	}
-	
+
 	public Employee(String name) {
 		this(name, 250000);
 	}
@@ -39,11 +39,7 @@ public class Employee {
 	}
 
 	public boolean getRange(int min, int max) {
-		if (min <= salary && salary <= max) {
-			return true;
-		} else {
-			return false;
-		}
+		return min <= salary && salary <= max;
 	}
 
 	public int getTax() {
@@ -52,11 +48,7 @@ public class Employee {
 	}
 
 	public boolean compareSalary(Employee emp) {
-		if (salary > emp.getSalary()) {
-			return true;
-		} else {
-			return false;
-		}
+		return salary > emp.getSalary();
 	}
 
 }
