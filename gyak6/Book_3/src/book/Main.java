@@ -18,10 +18,11 @@ public class Main {
 		// add books to the array
 		int i = 0;
 		do {
-			//addBook(sc, books, i); // get books from console
-			addRandomBook(books, i); // add random books (debug)
+			addBook(sc, books, i); // get books from console
+			//addRandomBook(books, i); // add random books (debug)
 			i++;
 		} while (i < numberOfBbooks);
+		sc.close();
 		System.out.println();
 
 		// print longest book

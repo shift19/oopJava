@@ -17,7 +17,7 @@ public class Main {
 		}
 		System.out.println();
 
-		System.out.print("Longest record is: " + records[getLongest(records)].getDetails());
+		System.out.print("Longest record is: " + longestRecord(records).getDetails());
 		System.out.println();
 
 		System.out.print("Enter an author: ");
@@ -49,14 +49,14 @@ public class Main {
 		r[i] = new Record(author, title, duration);
 	}
 
-	private static int getLongest(Record[] r) {
+	private static Record longestRecord(Record[] r) {
 		int maxIndex = 0;
 		for (int i = 0; i < r.length; i++) {
 			if (r[maxIndex].isLonger(r[i]) == -1) {
 				maxIndex = i;
 			}
 		}
-		return maxIndex;
+		return r[maxIndex];
 	}
 
 	private static void printSameAuthor(Record[] r, String s) {

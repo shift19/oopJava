@@ -16,6 +16,7 @@ public class Main {
 			i++;
 		} while (i < number_of_books);
 
+		sc.close();
 		System.out.println("Book 1 has the same title as Book 2? " + books[0].sameTitle(books[1]));
 	}
 

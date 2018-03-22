@@ -16,7 +16,7 @@ public class Main {
 		}
 
 		System.out.println();
-		System.out.println("Smallest rectangle: " + rectangles[minRectangleAreaIndex(rectangles)].getDetails());
+		System.out.println("Smallest rectangle: " + smallestRectangle(rectangles).getDetails());
 		System.out.println();
 
 		Scanner sc = new Scanner(System.in);
@@ -27,12 +27,12 @@ public class Main {
 		int b = ReadInt(sc);
 		Rectangle ownRectangle = new Rectangle(a, b);
 
-		System.out.println(smallerThen(ownRectangle, rectangles) + " rectangle smaller.");
+		System.out.println(countSmallerRectangles(ownRectangle, rectangles) + " rectangle smaller.");
 		System.out.println();
 
 		int indexEqual = 0;
 		for (int i = 0; i < rectangles.length; i++) {
-			if (ownRectangle.getA() == rectangles[i].getA() && ownRectangle.getB() == rectangles[i].getB()) {
+			if (ownRectangle.isEqual(rectangles[i])) {
 				indexEqual = i;
 				break;
 			}
@@ -48,21 +48,21 @@ public class Main {
 		sc.close();
 	}
 
-	private static int minRectangleAreaIndex(Rectangle[] r) {
+	private static Rectangle smallestRectangle(Rectangle[] r) {
 		int minIndex = 0;
 		for (int i = 0; i < r.length; i++) {
 			if (r[minIndex].getArea() > r[i].getArea()) {
 				minIndex = i;
 			}
 		}
-		return minIndex;
+		return r[minIndex];
 	}
 
 	private static int ReadInt(Scanner sc) {
 		return sc.nextInt();
 	}
 
-	private static int smallerThen(Rectangle own, Rectangle[] r) {
+	private static int countSmallerRectangles(Rectangle own, Rectangle[] r) {
 		int counter = 0;
 		for (int i = 0; i < r.length; i++) {
 			if (own.getArea() > r[i].getArea()) {
