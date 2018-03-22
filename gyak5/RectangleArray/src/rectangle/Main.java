@@ -8,7 +8,7 @@ public class Main {
 		Rectangle[] rectangles = new Rectangle[10];
 
 		for (int i = 0; i < rectangles.length; i++) {
-			rectangles[i] = new Rectangle((int) (Math.random() * 9) + 2, (int) (Math.random() * 9) + 2);
+			rectangles[i] = new Rectangle((int) (Math.random() * 10) + 1, (int) (Math.random() * 10) + 1);
 		}
 
 		for (int i = 0; i < rectangles.length; i++) {
