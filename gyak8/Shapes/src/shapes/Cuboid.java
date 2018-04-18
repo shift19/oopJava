@@ -15,7 +15,7 @@ public class Cuboid extends Prism {
 	public double getSurface() {
 		return a * b * getHeight();
 	}
-	
+
 	@Override
 	public String toString() {
 		return a + " " + b + " " + getHeight();

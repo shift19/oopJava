@@ -18,7 +18,7 @@ public class Product {
 	}
 
 	public int getGrossPrice() {
-		return Math.round(netPrice * (1 + tax / 100));
+		return (int) Math.round(netPrice * (1 + tax / 100.0));
 	}
 
 	public void increasePrice(int p) {

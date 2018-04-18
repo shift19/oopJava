@@ -18,6 +18,7 @@ public class Pen extends Product implements Colourable {
 	public String toString() {
 		return super.toString() + " " + brand + " " + colour;
 	}
+
 	@Override
 	public Color getColour() {
 		return colour;
@@ -26,7 +27,7 @@ public class Pen extends Product implements Colourable {
 	@Override
 	public void setColour(Color colour) {
 		this.colour = colour;
-		
+
 	}
 
 }
